@@ -168,7 +168,7 @@ When processing tool results:
     description="The language model powering this agent",
 )
 def get_model_name() -> str:
-    return "sap/anthropic--claude-4.5-sonnet"
+    return "sap/anthropic--claude-4.6-sonnet"
 
 
 @agent_model(
